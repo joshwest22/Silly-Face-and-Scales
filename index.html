@@ -1,12 +1,23 @@
 <html>
 <body>
+    <style>body{background-color: aliceblue}</style>
 <h1>Silly Face and Scales</h1>
+<span>Smiley Face (above &amp; right)</span>
 <svg width="200" height="200">
     <circle cx="100" cy="100" r="50" fill="yellow"></circle>
     <rect x="70" y="60" width="20" height="40" fill="green"></rect>
     <rect x="110" y="60" width="20" height="40" fill="green"></rect>
     <ellipse cx="100" cy="120" rx="30" ry="10" fill="red"></ellipse>
 </svg>
-<span></span>
+<span>Japanese Flag (above &amp; right)</span>
+<svg width="200" height="200">
+    <rect width="160" height="80" fill="white"></rect>
+    <circle cx="80" cy="40" r="25" fill="red"></circle>
+    
+</svg>
+<h2>What is scale? How is it used?</h2>    
+<span>In a basic sense scale does what the name implies in that it adjusts the current drawing bigger or smaller. It is important to note that if you scale a drawing once it will keep that scaling for any future drawings created. </span>
+<br />
+<span>Using the scale method is simple. When doing so, simply say the name of a visual element on a canvas (e.g. a rectangle variable called myRect) and then .scale(.5,.5) (e.g. myRect.scale(.5,.5) which would draw myRect at half of its original size). It is entirely possible to use numbers over 100% with scale for example myRect.scale(2,2) would double the rectangle size without any issues. Scale will be useful for adjusting the size of images and svgs in the future.</span>
 <body>
 </html>
